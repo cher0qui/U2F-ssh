@@ -38,5 +38,5 @@ fi
 echo "== Restarting SSH service =="
 sudo systemctl restart ssh
 
-echo "== Done! ✅ =="
+echo "== Done!  =="
 echo "IMPORTANT: Open a new SSH session to test before closing this one."
