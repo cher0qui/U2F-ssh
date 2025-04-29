@@ -87,7 +87,7 @@ sudo sed -i '/@include common-auth/a \nauth required pam_u2f.so origin=ssh://HOS
 sudo systemctl restart ssh
 ```
 
-⚠️ **Important**: Open a new SSH session to test before closing your current one. If configuration is incorrect, you may get locked out.
+**Important**: Open a new SSH session to test before closing your current one. If configuration is incorrect, you may get locked out.
 
 ---
 
